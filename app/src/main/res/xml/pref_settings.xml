@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="colores_pref"
+        android:title="Colores">
+
+        <SwitchPreference
+            android:defaultValue="@bool/pref_show_bass_default"
+            android:icon="@drawable/ic_brightness_3_black_24dp"
+            android:key="@string/pref_dark_mode_key"
+            android:summaryOff="@string/pref_dark_mode_disabled"
+            android:summaryOn="@string/pref_dark_mode_enabled"
+            android:title="@string/pref_dark_mode_label"
+            android:onClick="click"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_text_fields_black_24dp"
+            android:key="caps_title"
+            android:summaryOff="Desactivado"
+            android:summaryOn="Activado"
+            android:title="Titulos en Mayúscula" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="idioma_cat"
+        android:title="Internacional">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/Idioma"
+            android:entryValues="@array/Idioma"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:key="list_preference_1"
+            android:title="Idioma" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

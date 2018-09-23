@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LaOfertaIdeal</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Idioma">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Francés</item>
+    </string-array>
+    <string name="pref_dark_mode_label">Modo nocturno</string>
+    <string name="pref_dark_mode_key" translatable="false">dark_mode</string>
+    <string name="pref_dark_mode_enabled">Activado</string>
+    <string name="pref_dark_mode_disabled">Desactivado</string>
+</resources>
